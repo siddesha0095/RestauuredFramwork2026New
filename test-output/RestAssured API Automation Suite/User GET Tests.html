@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  User GET Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>User GET Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Mar 23 10:08:02 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5426 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersDataFieldsNotNull()'><b>testGetUsersDataFieldsNotNull</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify user data fields — id, email, first_name, last_name, avatar</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersDataListNotEmpty()'><b>testGetUsersDataListNotEmpty</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify user data list is not empty</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersPaginationFields()'><b>testGetUsersPaginationFields</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify pagination fields exist in response</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUserByIdReturns200()'><b>testGetUserByIdReturns200</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify GET /users/{id} returns correct user</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersPage2ReturnsDifferentData()'><b>testGetUsersPage2ReturnsDifferentData</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify page 2 returns different data than page 1</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersPerPageParam()'><b>testGetUsersPerPageParam</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify GET /users with per_page param limits result size</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersReturns200()'><b>testGetUsersReturns200</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify GET /users returns 200 with valid body</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testAllUserIdsArePositive()'><b>testAllUserIdsArePositive</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify all users across page 1 have valid ids</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersEmailFormat()'><b>testGetUsersEmailFormat</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify email format in user list</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersSupportObject()'><b>testGetUsersSupportObject</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify support object is present in list response</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUserByIdDeserializationToPojo()'><b>testGetUserByIdDeserializationToPojo</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Deserialize single user GET response to POJO</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUserResponseTime()'><b>testGetUserResponseTime</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Validate response time under 5 seconds for GET user by id</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUsersDeserializationToPojo()'><b>testGetUsersDeserializationToPojo</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Deserialize user list response to POJO and validate</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUserAvatarIsHttpsUrl()'><b>testGetUserAvatarIsHttpsUrl</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify avatar URL in response is a valid https URL</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+<tr>
+<td title='com.api.tests.users.GetUsersTest.testGetUserByInvalidIdReturns404()'><b>testGetUserByInvalidIdReturns404</b><br>Test class: com.api.tests.users.GetUsersTest<br>Test method: Verify GET /users/{id} with invalid id returns 404</td>
+<td></td>
+<td>0</td>
+<td>com.api.tests.users.GetUsersTest@10b8b900</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="classes" name="Failed suite [RestAssured API Automation Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <listeners>
+    <listener class-name="com.api.framework.listeners.TestNGListener"/>
+  </listeners>
+  <test thread-count="3" parallel="classes" name="Authentication Tests(failed)" verbose="2">
+    <classes>
+      <class name="com.api.tests.auth.AuthTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="testLogout"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.api.tests.auth.AuthTest -->
+    </classes>
+  </test> <!-- Authentication Tests(failed) -->
+  <test thread-count="3" parallel="classes" name="Advanced RestAssured Tests(failed)" verbose="2">
+    <classes>
+      <class name="com.api.tests.users.AdvancedRestAssuredTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterClass"/>
+          <include name="testRelaxedHttpsSpec"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.api.tests.users.AdvancedRestAssuredTest -->
+    </classes>
+  </test> <!-- Advanced RestAssured Tests(failed) -->
+</suite> <!-- Failed suite [RestAssured API Automation Suite] -->

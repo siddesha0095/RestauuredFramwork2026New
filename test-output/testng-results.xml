@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="81" passed="79" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-23T10:07:52 IST" name="RestAssured API Automation Suite" finished-at="2026-03-23T10:08:33 IST" duration-ms="41182">
+    <groups>
+    </groups>
+    <test started-at="2026-03-23T10:07:52 IST" name="Authentication Tests" finished-at="2026-03-23T10:08:01 IST" duration-ms="9687">
+      <class name="com.api.tests.auth.AuthTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:52 IST" name="beforeClass" finished-at="2026-03-23T10:07:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:52 IST" name="beforeMethod" finished-at="2026-03-23T10:07:52 IST" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginDeserializationToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginDeserializationToPojo()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:52 IST" name="testLoginDeserializationToPojo" description="POST /login — deserialize response to LoginResponse POJO" finished-at="2026-03-23T10:07:56 IST" duration-ms="4144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginDeserializationToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:56 IST" name="afterMethod" finished-at="2026-03-23T10:07:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginDeserializationToPojo status=SUCCESS method=AuthTest.testLoginDeserializationToPojo()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:56 IST" name="beforeMethod" finished-at="2026-03-23T10:07:56 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginMissingEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginMissingEmail()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:56 IST" name="testLoginMissingEmail" description="POST /login with missing email returns 400" finished-at="2026-03-23T10:07:58 IST" duration-ms="1545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="afterMethod" finished-at="2026-03-23T10:07:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginMissingEmail status=SUCCESS method=AuthTest.testLoginMissingEmail()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="beforeMethod" finished-at="2026-03-23T10:07:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginMissingPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginMissingPassword()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="testLoginMissingPassword" description="POST /login with missing password returns 400" finished-at="2026-03-23T10:07:58 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginMissingPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="afterMethod" finished-at="2026-03-23T10:07:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginMissingPassword status=SUCCESS method=AuthTest.testLoginMissingPassword()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="beforeMethod" finished-at="2026-03-23T10:07:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginTokenIsValidString()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginTokenIsValidString()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="testLoginTokenIsValidString" description="Extracted token is valid and non-empty string" finished-at="2026-03-23T10:07:58 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginTokenIsValidString -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:58 IST" name="afterMethod" finished-at="2026-03-23T10:07:58 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginTokenIsValidString status=SUCCESS method=AuthTest.testLoginTokenIsValidString()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="beforeMethod" finished-at="2026-03-23T10:07:59 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginWithInvalidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithInvalidCredentials()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="testLoginWithInvalidCredentials" description="POST /login with invalid credentials returns 400 with error message" finished-at="2026-03-23T10:07:59 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="afterMethod" finished-at="2026-03-23T10:07:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithInvalidCredentials status=SUCCESS method=AuthTest.testLoginWithInvalidCredentials()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="beforeMethod" finished-at="2026-03-23T10:07:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginWithMapPayload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithMapPayload()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="testLoginWithMapPayload" description="POST /login with Map payload returns 200 and token" finished-at="2026-03-23T10:07:59 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithMapPayload -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="afterMethod" finished-at="2026-03-23T10:07:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithMapPayload status=SUCCESS method=AuthTest.testLoginWithMapPayload()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="beforeMethod" finished-at="2026-03-23T10:07:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLoginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithValidCredentials()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:07:59 IST" name="testLoginWithValidCredentials" description="POST /login with valid credentials returns 200 and token" finished-at="2026-03-23T10:08:00 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="afterMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=AuthTest.testLoginWithValidCredentials()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="beforeMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogout()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="testLogout" description="POST /logout — verify response (ReqRes returns 200)" finished-at="2026-03-23T10:08:00 IST" duration-ms="236" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Status code mismatch] 
+expected: 200
+ but was: 400]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Status code mismatch] 
+expected: 200
+ but was: 400
+at com.api.framework.utils.ResponseValidator.validateStatusCode(ResponseValidator.java:31)
+at com.api.framework.utils.ResponseValidator.validateStatusCode200(ResponseValidator.java:35)
+at com.api.tests.auth.AuthTest.testLogout(AuthTest.java:261)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="afterMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=FAILURE method=AuthTest.testLogout()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="beforeMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testRegisterDeserializationToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRegisterDeserializationToPojo()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="testRegisterDeserializationToPojo" description="POST /register — deserialize to LoginResponse POJO" finished-at="2026-03-23T10:08:00 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterDeserializationToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="afterMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterDeserializationToPojo status=SUCCESS method=AuthTest.testRegisterDeserializationToPojo()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="beforeMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testRegisterMissingPassword()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRegisterMissingPassword()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="testRegisterMissingPassword" description="POST /register with missing password returns 400" finished-at="2026-03-23T10:08:00 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterMissingPassword -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="afterMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterMissingPassword status=SUCCESS method=AuthTest.testRegisterMissingPassword()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="beforeMethod" finished-at="2026-03-23T10:08:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testRegisterWithUnknownEmail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRegisterWithUnknownEmail()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:00 IST" name="testRegisterWithUnknownEmail" description="POST /register with unknown email returns 400" finished-at="2026-03-23T10:08:01 IST" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWithUnknownEmail -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="afterMethod" finished-at="2026-03-23T10:08:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterWithUnknownEmail status=SUCCESS method=AuthTest.testRegisterWithUnknownEmail()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="beforeMethod" finished-at="2026-03-23T10:08:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testRegisterWithValidPayload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRegisterWithValidPayload()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="testRegisterWithValidPayload" description="POST /register with valid payload returns 200 with token and id" finished-at="2026-03-23T10:08:01 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWithValidPayload -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="afterMethod" finished-at="2026-03-23T10:08:01 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterWithValidPayload status=SUCCESS method=AuthTest.testRegisterWithValidPayload()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="beforeMethod" finished-at="2026-03-23T10:08:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.auth.AuthTest.testTokenUsedAsAuthHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTokenUsedAsAuthHeader()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="testTokenUsedAsAuthHeader" description="Use extracted login token in subsequent request header" finished-at="2026-03-23T10:08:01 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTokenUsedAsAuthHeader -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="afterMethod" finished-at="2026-03-23T10:08:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTokenUsedAsAuthHeader status=SUCCESS method=AuthTest.testTokenUsedAsAuthHeader()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.auth.AuthTest@4f1afe8f]" started-at="2026-03-23T10:08:01 IST" name="afterClass" finished-at="2026-03-23T10:08:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.tests.auth.AuthTest -->
+    </test> <!-- Authentication Tests -->
+    <test started-at="2026-03-23T10:08:02 IST" name="User GET Tests" finished-at="2026-03-23T10:08:07 IST" duration-ms="5426">
+      <class name="com.api.tests.users.GetUsersTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="beforeClass" finished-at="2026-03-23T10:08:02 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="beforeMethod" finished-at="2026-03-23T10:08:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testAllUserIdsArePositive()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAllUserIdsArePositive()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="testAllUserIdsArePositive" description="Verify all users across page 1 have valid ids" finished-at="2026-03-23T10:08:02 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllUserIdsArePositive -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="afterMethod" finished-at="2026-03-23T10:08:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAllUserIdsArePositive status=SUCCESS method=GetUsersTest.testAllUserIdsArePositive()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="beforeMethod" finished-at="2026-03-23T10:08:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUserAvatarIsHttpsUrl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUserAvatarIsHttpsUrl()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="testGetUserAvatarIsHttpsUrl" description="Verify avatar URL in response is a valid https URL" finished-at="2026-03-23T10:08:02 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserAvatarIsHttpsUrl -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="afterMethod" finished-at="2026-03-23T10:08:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserAvatarIsHttpsUrl status=SUCCESS method=GetUsersTest.testGetUserAvatarIsHttpsUrl()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="beforeMethod" finished-at="2026-03-23T10:08:02 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUserByIdDeserializationToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUserByIdDeserializationToPojo()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:02 IST" name="testGetUserByIdDeserializationToPojo" description="Deserialize single user GET response to POJO" finished-at="2026-03-23T10:08:03 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByIdDeserializationToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="afterMethod" finished-at="2026-03-23T10:08:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserByIdDeserializationToPojo status=SUCCESS method=GetUsersTest.testGetUserByIdDeserializationToPojo()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="beforeMethod" finished-at="2026-03-23T10:08:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUserByIdReturns200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUserByIdReturns200()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="testGetUserByIdReturns200" description="Verify GET /users/{id} returns correct user" finished-at="2026-03-23T10:08:03 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByIdReturns200 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="afterMethod" finished-at="2026-03-23T10:08:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserByIdReturns200 status=SUCCESS method=GetUsersTest.testGetUserByIdReturns200()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="beforeMethod" finished-at="2026-03-23T10:08:03 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUserByInvalidIdReturns404()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUserByInvalidIdReturns404()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:03 IST" name="testGetUserByInvalidIdReturns404" description="Verify GET /users/{id} with invalid id returns 404" finished-at="2026-03-23T10:08:04 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByInvalidIdReturns404 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="afterMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserByInvalidIdReturns404 status=SUCCESS method=GetUsersTest.testGetUserByInvalidIdReturns404()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="beforeMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUserResponseTime()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUserResponseTime()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="testGetUserResponseTime" description="Validate response time under 5 seconds for GET user by id" finished-at="2026-03-23T10:08:04 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserResponseTime -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="afterMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUserResponseTime status=SUCCESS method=GetUsersTest.testGetUserResponseTime()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="beforeMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersDataFieldsNotNull()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersDataFieldsNotNull()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="testGetUsersDataFieldsNotNull" description="Verify user data fields — id, email, first_name, last_name, avatar" finished-at="2026-03-23T10:08:04 IST" duration-ms="401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersDataFieldsNotNull -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="afterMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersDataFieldsNotNull status=SUCCESS method=GetUsersTest.testGetUsersDataFieldsNotNull()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="beforeMethod" finished-at="2026-03-23T10:08:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersDataListNotEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersDataListNotEmpty()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:04 IST" name="testGetUsersDataListNotEmpty" description="Verify user data list is not empty" finished-at="2026-03-23T10:08:05 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersDataListNotEmpty -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="afterMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersDataListNotEmpty status=SUCCESS method=GetUsersTest.testGetUsersDataListNotEmpty()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="beforeMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersDeserializationToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersDeserializationToPojo()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="testGetUsersDeserializationToPojo" description="Deserialize user list response to POJO and validate" finished-at="2026-03-23T10:08:05 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersDeserializationToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="afterMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersDeserializationToPojo status=SUCCESS method=GetUsersTest.testGetUsersDeserializationToPojo()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="beforeMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersEmailFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersEmailFormat()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="testGetUsersEmailFormat" description="Verify email format in user list" finished-at="2026-03-23T10:08:05 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersEmailFormat -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="afterMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersEmailFormat status=SUCCESS method=GetUsersTest.testGetUsersEmailFormat()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="beforeMethod" finished-at="2026-03-23T10:08:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersPage2ReturnsDifferentData()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersPage2ReturnsDifferentData()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:05 IST" name="testGetUsersPage2ReturnsDifferentData" description="Verify page 2 returns different data than page 1" finished-at="2026-03-23T10:08:06 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPage2ReturnsDifferentData -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="afterMethod" finished-at="2026-03-23T10:08:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersPage2ReturnsDifferentData status=SUCCESS method=GetUsersTest.testGetUsersPage2ReturnsDifferentData()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="beforeMethod" finished-at="2026-03-23T10:08:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersPaginationFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersPaginationFields()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="testGetUsersPaginationFields" description="Verify pagination fields exist in response" finished-at="2026-03-23T10:08:06 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPaginationFields -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="afterMethod" finished-at="2026-03-23T10:08:06 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersPaginationFields status=SUCCESS method=GetUsersTest.testGetUsersPaginationFields()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="beforeMethod" finished-at="2026-03-23T10:08:06 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersPerPageParam()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersPerPageParam()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:06 IST" name="testGetUsersPerPageParam" description="Verify GET /users with per_page param limits result size" finished-at="2026-03-23T10:08:06 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersPerPageParam -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="afterMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersPerPageParam status=SUCCESS method=GetUsersTest.testGetUsersPerPageParam()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="beforeMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersReturns200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersReturns200()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="testGetUsersReturns200" description="Verify GET /users returns 200 with valid body" finished-at="2026-03-23T10:08:07 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersReturns200 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="afterMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersReturns200 status=SUCCESS method=GetUsersTest.testGetUsersReturns200()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="beforeMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.GetUsersTest.testGetUsersSupportObject()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetUsersSupportObject()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="testGetUsersSupportObject" description="Verify support object is present in list response" finished-at="2026-03-23T10:08:07 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersSupportObject -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="afterMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetUsersSupportObject status=SUCCESS method=GetUsersTest.testGetUsersSupportObject()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.users.GetUsersTest@10b8b900]" started-at="2026-03-23T10:08:07 IST" name="afterClass" finished-at="2026-03-23T10:08:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.tests.users.GetUsersTest -->
+    </test> <!-- User GET Tests -->
+    <test started-at="2026-03-23T10:08:07 IST" name="User Create-Update-Delete Tests" finished-at="2026-03-23T10:08:11 IST" duration-ms="4058">
+      <class name="com.api.tests.users.CreateUpdateDeleteUserTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="beforeClass" finished-at="2026-03-23T10:08:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="beforeMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserCreatedAtNotBlank()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserCreatedAtNotBlank()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="testCreateUserCreatedAtNotBlank" description="POST /users — verify createdAt is a non-blank timestamp" finished-at="2026-03-23T10:08:07 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserCreatedAtNotBlank -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="afterMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserCreatedAtNotBlank status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserCreatedAtNotBlank()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="beforeMethod" finished-at="2026-03-23T10:08:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserDeserializationToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserDeserializationToPojo()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:07 IST" name="testCreateUserDeserializationToPojo" description="POST /users — deserialize create response to POJO" finished-at="2026-03-23T10:08:08 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserDeserializationToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="afterMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserDeserializationToPojo status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserDeserializationToPojo()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="beforeMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserIdsAreUnique()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserIdsAreUnique()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="testCreateUserIdsAreUnique" description="POST /users — verify id is unique for each call" finished-at="2026-03-23T10:08:08 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserIdsAreUnique -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="afterMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserIdsAreUnique status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserIdsAreUnique()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="beforeMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserWithEmptyBody()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserWithEmptyBody()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="testCreateUserWithEmptyBody" description="POST /users with empty body — verify server accepts or rejects gracefully" finished-at="2026-03-23T10:08:08 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithEmptyBody -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="afterMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserWithEmptyBody status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserWithEmptyBody()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="beforeMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserWithMapBody()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserWithMapBody()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="testCreateUserWithMapBody" description="POST /users with Map body — verify 201" finished-at="2026-03-23T10:08:08 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithMapBody -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="afterMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserWithMapBody status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserWithMapBody()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="beforeMethod" finished-at="2026-03-23T10:08:08 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserWithPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserWithPojo()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:08 IST" name="testCreateUserWithPojo" description="POST /users with POJO body — verify 201 and response fields" finished-at="2026-03-23T10:08:09 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="afterMethod" finished-at="2026-03-23T10:08:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserWithPojo status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserWithPojo()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="beforeMethod" finished-at="2026-03-23T10:08:09 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testCreateUserWithRawJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreateUserWithRawJson()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="testCreateUserWithRawJson" description="POST /users with raw JSON string body — verify 201" finished-at="2026-03-23T10:08:09 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUserWithRawJson -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="afterMethod" finished-at="2026-03-23T10:08:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateUserWithRawJson status=SUCCESS method=CreateUpdateDeleteUserTest.testCreateUserWithRawJson()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="beforeMethod" finished-at="2026-03-23T10:08:09 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testDeleteMultipleUsersReturn204()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDeleteMultipleUsersReturn204()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:09 IST" name="testDeleteMultipleUsersReturn204" description="DELETE /users/{id} — multiple different ids return 204" finished-at="2026-03-23T10:08:10 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteMultipleUsersReturn204 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="afterMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteMultipleUsersReturn204 status=SUCCESS method=CreateUpdateDeleteUserTest.testDeleteMultipleUsersReturn204()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="beforeMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testDeleteUserReturns204()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDeleteUserReturns204()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="testDeleteUserReturns204" description="DELETE /users/{id} — verify 204 No Content" finished-at="2026-03-23T10:08:10 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserReturns204 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="afterMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteUserReturns204 status=SUCCESS method=CreateUpdateDeleteUserTest.testDeleteUserReturns204()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="beforeMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testPatchUserJob()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPatchUserJob()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="testPatchUserJob" description="PATCH /users/{id} — partial update of job field" finished-at="2026-03-23T10:08:10 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchUserJob -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="afterMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPatchUserJob status=SUCCESS method=CreateUpdateDeleteUserTest.testPatchUserJob()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="beforeMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testPatchUserName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPatchUserName()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="testPatchUserName" description="PATCH /users/{id} — partial update of name field" finished-at="2026-03-23T10:08:10 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchUserName -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="afterMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPatchUserName status=SUCCESS method=CreateUpdateDeleteUserTest.testPatchUserName()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="beforeMethod" finished-at="2026-03-23T10:08:10 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testPutResponseReflectsPayload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPutResponseReflectsPayload()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:10 IST" name="testPutResponseReflectsPayload" description="PUT /users/{id} — response body reflects sent values" finished-at="2026-03-23T10:08:11 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPutResponseReflectsPayload -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:11 IST" name="afterMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPutResponseReflectsPayload status=SUCCESS method=CreateUpdateDeleteUserTest.testPutResponseReflectsPayload()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:11 IST" name="beforeMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.CreateUpdateDeleteUserTest.testUpdateUserWithPut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUpdateUserWithPut()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:11 IST" name="testUpdateUserWithPut" description="PUT /users/{id} — verify 200 and updatedAt in response" finished-at="2026-03-23T10:08:11 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUserWithPut -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:11 IST" name="afterMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdateUserWithPut status=SUCCESS method=CreateUpdateDeleteUserTest.testUpdateUserWithPut()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.users.CreateUpdateDeleteUserTest@5e905f2c]" started-at="2026-03-23T10:08:11 IST" name="afterClass" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.tests.users.CreateUpdateDeleteUserTest -->
+    </test> <!-- User Create-Update-Delete Tests -->
+    <test started-at="2026-03-23T10:08:11 IST" name="Resources Tests" finished-at="2026-03-23T10:08:13 IST" duration-ms="1847">
+      <class name="com.api.tests.users.ResourcesTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="beforeClass" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="beforeMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testGetInvalidResourceReturns404()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetInvalidResourceReturns404()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="testGetInvalidResourceReturns404" description="GET /api/unknown/{id} with invalid id returns 404" finished-at="2026-03-23T10:08:11 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetInvalidResourceReturns404 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="afterMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetInvalidResourceReturns404 status=SUCCESS method=ResourcesTest.testGetInvalidResourceReturns404()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="beforeMethod" finished-at="2026-03-23T10:08:11 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testGetResourceById()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetResourceById()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:11 IST" name="testGetResourceById" description="GET /api/unknown/{id} returns correct resource" finished-at="2026-03-23T10:08:12 IST" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourceById -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="afterMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetResourceById status=SUCCESS method=ResourcesTest.testGetResourceById()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="beforeMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testGetResourcesReturns200()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetResourcesReturns200()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="testGetResourcesReturns200" description="GET /api/unknown returns 200 with resource list" finished-at="2026-03-23T10:08:12 IST" duration-ms="226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetResourcesReturns200 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="afterMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetResourcesReturns200 status=SUCCESS method=ResourcesTest.testGetResourcesReturns200()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="beforeMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testResourceColorFormat()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResourceColorFormat()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="testResourceColorFormat" description="GET /api/unknown — color fields start with #" finished-at="2026-03-23T10:08:12 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourceColorFormat -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="afterMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResourceColorFormat status=SUCCESS method=ResourcesTest.testResourceColorFormat()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="beforeMethod" finished-at="2026-03-23T10:08:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testResourceFieldsExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResourceFieldsExist()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:12 IST" name="testResourceFieldsExist" description="GET /api/unknown — each resource has id, name, year, color, pantone_value" finished-at="2026-03-23T10:08:13 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourceFieldsExist -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:13 IST" name="afterMethod" finished-at="2026-03-23T10:08:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResourceFieldsExist status=SUCCESS method=ResourcesTest.testResourceFieldsExist()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:13 IST" name="beforeMethod" finished-at="2026-03-23T10:08:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.ResourcesTest.testResourcesPaginationFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResourcesPaginationFields()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:13 IST" name="testResourcesPaginationFields" description="GET /api/unknown — pagination fields present" finished-at="2026-03-23T10:08:13 IST" duration-ms="295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResourcesPaginationFields -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:13 IST" name="afterMethod" finished-at="2026-03-23T10:08:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResourcesPaginationFields status=SUCCESS method=ResourcesTest.testResourcesPaginationFields()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.users.ResourcesTest@486bd064]" started-at="2026-03-23T10:08:13 IST" name="afterClass" finished-at="2026-03-23T10:08:13 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.tests.users.ResourcesTest -->
+    </test> <!-- Resources Tests -->
+    <test started-at="2026-03-23T10:08:13 IST" name="Posts CRUD Tests" finished-at="2026-03-23T10:08:28 IST" duration-ms="15094">
+      <class name="com.api.tests.posts.PostsTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:13 IST" name="beforeClass" finished-at="2026-03-23T10:08:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:13 IST" name="beforeMethod" finished-at="2026-03-23T10:08:13 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testAllPostsHaveRequiredFields()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testAllPostsHaveRequiredFields()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:13 IST" name="testAllPostsHaveRequiredFields" description="GET /posts — every post has id, title, body, userId" finished-at="2026-03-23T10:08:14 IST" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPostsHaveRequiredFields -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="afterMethod" finished-at="2026-03-23T10:08:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAllPostsHaveRequiredFields status=SUCCESS method=PostsTest.testAllPostsHaveRequiredFields()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="beforeMethod" finished-at="2026-03-23T10:08:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCollectUniqueUserIds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCollectUniqueUserIds()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="testCollectUniqueUserIds" description="GET /posts — JsonPath collect unique userIds" finished-at="2026-03-23T10:08:14 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCollectUniqueUserIds -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="afterMethod" finished-at="2026-03-23T10:08:14 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCollectUniqueUserIds status=SUCCESS method=PostsTest.testCollectUniqueUserIds()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="beforeMethod" finished-at="2026-03-23T10:08:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCommentsHaveEmailField()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCommentsHaveEmailField()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:14 IST" name="testCommentsHaveEmailField" description="GET /posts/{id}/comments — every comment has email field" finished-at="2026-03-23T10:08:15 IST" duration-ms="552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommentsHaveEmailField -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:15 IST" name="afterMethod" finished-at="2026-03-23T10:08:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCommentsHaveEmailField status=SUCCESS method=PostsTest.testCommentsHaveEmailField()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:15 IST" name="beforeMethod" finished-at="2026-03-23T10:08:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCommentsViaQueryParamVsNestedPath()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCommentsViaQueryParamVsNestedPath()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:15 IST" name="testCommentsViaQueryParamVsNestedPath" description="GET /comments?postId={id} returns same data as nested endpoint" finished-at="2026-03-23T10:08:16 IST" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCommentsViaQueryParamVsNestedPath -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="afterMethod" finished-at="2026-03-23T10:08:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCommentsViaQueryParamVsNestedPath status=SUCCESS method=PostsTest.testCommentsViaQueryParamVsNestedPath()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="beforeMethod" finished-at="2026-03-23T10:08:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCreatePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreatePost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="testCreatePost" description="POST /posts with POJO returns 201 with echoed fields" finished-at="2026-03-23T10:08:16 IST" duration-ms="816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePost -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="afterMethod" finished-at="2026-03-23T10:08:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePost status=SUCCESS method=PostsTest.testCreatePost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="beforeMethod" finished-at="2026-03-23T10:08:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCreatePostDeserializeToPojo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreatePostDeserializeToPojo()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:16 IST" name="testCreatePostDeserializeToPojo" description="POST /posts — deserialize response to PostResponse POJO" finished-at="2026-03-23T10:08:17 IST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostDeserializeToPojo -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:17 IST" name="afterMethod" finished-at="2026-03-23T10:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePostDeserializeToPojo status=SUCCESS method=PostsTest.testCreatePostDeserializeToPojo()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:17 IST" name="beforeMethod" finished-at="2026-03-23T10:08:17 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testCreatePostWithMap()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCreatePostWithMap()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:17 IST" name="testCreatePostWithMap" description="POST /posts with Map body returns 201" finished-at="2026-03-23T10:08:18 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreatePostWithMap -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:18 IST" name="afterMethod" finished-at="2026-03-23T10:08:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreatePostWithMap status=SUCCESS method=PostsTest.testCreatePostWithMap()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:18 IST" name="beforeMethod" finished-at="2026-03-23T10:08:18 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testDeletePost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testDeletePost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:18 IST" name="testDeletePost" description="DELETE /posts/{id} — verify 200 empty body" finished-at="2026-03-23T10:08:19 IST" duration-ms="1286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeletePost -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:19 IST" name="afterMethod" finished-at="2026-03-23T10:08:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeletePost status=SUCCESS method=PostsTest.testDeletePost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:19 IST" name="beforeMethod" finished-at="2026-03-23T10:08:19 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testExtractAllTitlesWithGPath()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testExtractAllTitlesWithGPath()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:19 IST" name="testExtractAllTitlesWithGPath" description="GET /posts — extract all titles using GPath" finished-at="2026-03-23T10:08:20 IST" duration-ms="607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractAllTitlesWithGPath -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="afterMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testExtractAllTitlesWithGPath status=SUCCESS method=PostsTest.testExtractAllTitlesWithGPath()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="beforeMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGPathFilterPostsByUserId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGPathFilterPostsByUserId()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="testGPathFilterPostsByUserId" description="GET /posts — filter posts with userId &lt; 3 via GPath" finished-at="2026-03-23T10:08:20 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGPathFilterPostsByUserId -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="afterMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGPathFilterPostsByUserId status=SUCCESS method=PostsTest.testGPathFilterPostsByUserId()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="beforeMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetAllPostsReturns100()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetAllPostsReturns100()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="testGetAllPostsReturns100" description="GET /posts returns 200 and 100 posts" finished-at="2026-03-23T10:08:20 IST" duration-ms="465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllPostsReturns100 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="afterMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetAllPostsReturns100 status=SUCCESS method=PostsTest.testGetAllPostsReturns100()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="beforeMethod" finished-at="2026-03-23T10:08:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetCommentsForPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetCommentsForPost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:20 IST" name="testGetCommentsForPost" description="GET /posts/{id}/comments returns non-empty list" finished-at="2026-03-23T10:08:21 IST" duration-ms="529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCommentsForPost -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:21 IST" name="afterMethod" finished-at="2026-03-23T10:08:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetCommentsForPost status=SUCCESS method=PostsTest.testGetCommentsForPost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:21 IST" name="beforeMethod" finished-at="2026-03-23T10:08:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostByIdParameterized(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:21 IST" name="testGetPostByIdParameterized" description="GET /posts/{id} — parameterized across multiple valid ids" data-provider="validPostIds" finished-at="2026-03-23T10:08:22 IST" duration-ms="494" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByIdParameterized -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="afterMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostByIdParameterized status=SUCCESS method=PostsTest.testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="beforeMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostByIdParameterized(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="testGetPostByIdParameterized" description="GET /posts/{id} — parameterized across multiple valid ids" data-provider="validPostIds" finished-at="2026-03-23T10:08:22 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByIdParameterized -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="afterMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostByIdParameterized status=SUCCESS method=PostsTest.testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="beforeMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostByIdParameterized(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="testGetPostByIdParameterized" description="GET /posts/{id} — parameterized across multiple valid ids" data-provider="validPostIds" finished-at="2026-03-23T10:08:22 IST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByIdParameterized -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="afterMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostByIdParameterized status=SUCCESS method=PostsTest.testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="beforeMethod" finished-at="2026-03-23T10:08:22 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostByIdParameterized(int)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:22 IST" name="testGetPostByIdParameterized" description="GET /posts/{id} — parameterized across multiple valid ids" data-provider="validPostIds" finished-at="2026-03-23T10:08:23 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByIdParameterized -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="afterMethod" finished-at="2026-03-23T10:08:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostByIdParameterized status=SUCCESS method=PostsTest.testGetPostByIdParameterized(int)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="beforeMethod" finished-at="2026-03-23T10:08:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostByInvalidIdReturns404()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostByInvalidIdReturns404()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="testGetPostByInvalidIdReturns404" description="GET /posts/{id} with invalid id returns 404" finished-at="2026-03-23T10:08:23 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostByInvalidIdReturns404 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="afterMethod" finished-at="2026-03-23T10:08:23 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostByInvalidIdReturns404 status=SUCCESS method=PostsTest.testGetPostByInvalidIdReturns404()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="beforeMethod" finished-at="2026-03-23T10:08:23 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostSoftAssertions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostSoftAssertions()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:23 IST" name="testGetPostSoftAssertions" description="Validate GET /posts/1 with soft assertions" finished-at="2026-03-23T10:08:26 IST" duration-ms="2786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostSoftAssertions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:26 IST" name="afterMethod" finished-at="2026-03-23T10:08:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostSoftAssertions status=SUCCESS method=PostsTest.testGetPostSoftAssertions()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:26 IST" name="beforeMethod" finished-at="2026-03-23T10:08:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testGetPostsByUserId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGetPostsByUserId()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:26 IST" name="testGetPostsByUserId" description="GET /posts?userId=1 returns only posts for userId=1" finished-at="2026-03-23T10:08:26 IST" duration-ms="419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetPostsByUserId -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:26 IST" name="afterMethod" finished-at="2026-03-23T10:08:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGetPostsByUserId status=SUCCESS method=PostsTest.testGetPostsByUserId()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:26 IST" name="beforeMethod" finished-at="2026-03-23T10:08:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testPatchPost()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testPatchPost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:27 IST" name="testPatchPost" description="PATCH /posts/{id} — partial update of title only" finished-at="2026-03-23T10:08:27 IST" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPatchPost -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:27 IST" name="afterMethod" finished-at="2026-03-23T10:08:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPatchPost status=SUCCESS method=PostsTest.testPatchPost()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:27 IST" name="beforeMethod" finished-at="2026-03-23T10:08:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.posts.PostsTest.testUpdatePostWithPut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUpdatePostWithPut()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:27 IST" name="testUpdatePostWithPut" description="PUT /posts/{id} — full update returns 200 with all echoed fields" finished-at="2026-03-23T10:08:28 IST" duration-ms="739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdatePostWithPut -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:28 IST" name="afterMethod" finished-at="2026-03-23T10:08:28 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUpdatePostWithPut status=SUCCESS method=PostsTest.testUpdatePostWithPut()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.posts.PostsTest@7739aac4]" started-at="2026-03-23T10:08:28 IST" name="afterClass" finished-at="2026-03-23T10:08:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.tests.posts.PostsTest -->
+    </test> <!-- Posts CRUD Tests -->
+    <test started-at="2026-03-23T10:08:28 IST" name="Advanced RestAssured Tests" finished-at="2026-03-23T10:08:33 IST" duration-ms="4905">
+      <class name="com.api.tests.users.AdvancedRestAssuredTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:07:50 IST" name="beforeSuite" finished-at="2026-03-23T10:07:52 IST" duration-ms="1978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="beforeClass" finished-at="2026-03-23T10:08:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="beforeMethod" finished-at="2026-03-23T10:08:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testChainedThenAssertions()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testChainedThenAssertions()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="testChainedThenAssertions" description="Chain multiple then() assertions in a single test" finished-at="2026-03-23T10:08:28 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChainedThenAssertions -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="afterMethod" finished-at="2026-03-23T10:08:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testChainedThenAssertions status=SUCCESS method=AdvancedRestAssuredTest.testChainedThenAssertions()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="beforeMethod" finished-at="2026-03-23T10:08:28 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testCustomLoggingFilterCapturesOutput()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCustomLoggingFilterCapturesOutput()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:28 IST" name="testCustomLoggingFilterCapturesOutput" description="Capture request/response log into string for assertion" finished-at="2026-03-23T10:08:29 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomLoggingFilterCapturesOutput -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="afterMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomLoggingFilterCapturesOutput status=SUCCESS method=AdvancedRestAssuredTest.testCustomLoggingFilterCapturesOutput()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="beforeMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testCustomRequestHeaders()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCustomRequestHeaders()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="testCustomRequestHeaders" description="Send request with custom correlation-id and user-agent headers" finished-at="2026-03-23T10:08:29 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomRequestHeaders -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="afterMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomRequestHeaders status=SUCCESS method=AdvancedRestAssuredTest.testCustomRequestHeaders()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="beforeMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testErrorFieldAbsentInSuccessResponse()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testErrorFieldAbsentInSuccessResponse()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="testErrorFieldAbsentInSuccessResponse" description="Assert optional &#039;error&#039; field absent in successful response" finished-at="2026-03-23T10:08:29 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testErrorFieldAbsentInSuccessResponse -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="afterMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testErrorFieldAbsentInSuccessResponse status=SUCCESS method=AdvancedRestAssuredTest.testErrorFieldAbsentInSuccessResponse()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="beforeMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testGPathMaxUserId()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGPathMaxUserId()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="testGPathMaxUserId" description="Use GPath to find max user id in the list" finished-at="2026-03-23T10:08:29 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGPathMaxUserId -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="afterMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGPathMaxUserId status=SUCCESS method=AdvancedRestAssuredTest.testGPathMaxUserId()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="beforeMethod" finished-at="2026-03-23T10:08:29 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testMultipleExtractionMethods()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMultipleExtractionMethods()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:29 IST" name="testMultipleExtractionMethods" description="Extract response values using .path(), .jsonPath(), .as()" finished-at="2026-03-23T10:08:30 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleExtractionMethods -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="afterMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleExtractionMethods status=SUCCESS method=AdvancedRestAssuredTest.testMultipleExtractionMethods()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="beforeMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testMultipleQueryParams()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMultipleQueryParams()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="testMultipleQueryParams" description="Send multiple query params in a single request" finished-at="2026-03-23T10:08:30 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleQueryParams -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="afterMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testMultipleQueryParams status=SUCCESS method=AdvancedRestAssuredTest.testMultipleQueryParams()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="beforeMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testRelaxedHttpsSpec()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRelaxedHttpsSpec()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="testRelaxedHttpsSpec" description="GET users using relaxed HTTPS spec — no cert validation" finished-at="2026-03-23T10:08:30 IST" duration-ms="376" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[[Status code mismatch] 
+expected: 200
+ but was: 403]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: [Status code mismatch] 
+expected: 200
+ but was: 403
+at com.api.framework.utils.ResponseValidator.validateStatusCode(ResponseValidator.java:31)
+at com.api.framework.utils.ResponseValidator.validateStatusCode200(ResponseValidator.java:35)
+at com.api.tests.users.AdvancedRestAssuredTest.testRelaxedHttpsSpec(AdvancedRestAssuredTest.java:208)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRelaxedHttpsSpec -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="afterMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRelaxedHttpsSpec status=FAILURE method=AdvancedRestAssuredTest.testRelaxedHttpsSpec()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="beforeMethod" finished-at="2026-03-23T10:08:30 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testResponseBodyIsValidJson()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResponseBodyIsValidJson()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:30 IST" name="testResponseBodyIsValidJson" description="Verify response body is valid JSON" finished-at="2026-03-23T10:08:31 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseBodyIsValidJson -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="afterMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseBodyIsValidJson status=SUCCESS method=AdvancedRestAssuredTest.testResponseBodyIsValidJson()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="beforeMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testResponseHeaderExtraction()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResponseHeaderExtraction()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="testResponseHeaderExtraction" description="Extract and assert response headers" finished-at="2026-03-23T10:08:31 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseHeaderExtraction -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="afterMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseHeaderExtraction status=SUCCESS method=AdvancedRestAssuredTest.testResponseHeaderExtraction()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="beforeMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testResponseTimeInMilliseconds()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testResponseTimeInMilliseconds()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="testResponseTimeInMilliseconds" description="Assert response time using TimeUnit conversion" finished-at="2026-03-23T10:08:31 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseTimeInMilliseconds -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="afterMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testResponseTimeInMilliseconds status=SUCCESS method=AdvancedRestAssuredTest.testResponseTimeInMilliseconds()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="beforeMethod" finished-at="2026-03-23T10:08:31 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testUserListResponseMatchesJsonSchema()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUserListResponseMatchesJsonSchema()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:31 IST" name="testUserListResponseMatchesJsonSchema" description="Validate GET /users list response against JSON schema" finished-at="2026-03-23T10:08:33 IST" duration-ms="1744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserListResponseMatchesJsonSchema -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="afterMethod" finished-at="2026-03-23T10:08:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserListResponseMatchesJsonSchema status=SUCCESS method=AdvancedRestAssuredTest.testUserListResponseMatchesJsonSchema()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="beforeMethod" finished-at="2026-03-23T10:08:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.api.tests.users.AdvancedRestAssuredTest.testUserResponseMatchesJsonSchema()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testUserResponseMatchesJsonSchema()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="testUserResponseMatchesJsonSchema" description="Validate GET /users/{id} response against JSON schema" finished-at="2026-03-23T10:08:33 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserResponseMatchesJsonSchema -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="afterMethod" finished-at="2026-03-23T10:08:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testUserResponseMatchesJsonSchema status=SUCCESS method=AdvancedRestAssuredTest.testUserResponseMatchesJsonSchema()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="afterClass" finished-at="2026-03-23T10:08:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.api.tests.users.AdvancedRestAssuredTest@5bfc79cb]" started-at="2026-03-23T10:08:33 IST" name="afterSuite" finished-at="2026-03-23T10:08:33 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.api.tests.users.AdvancedRestAssuredTest -->
+    </test> <!-- Advanced RestAssured Tests -->
+  </suite> <!-- RestAssured API Automation Suite -->
+</testng-results>
